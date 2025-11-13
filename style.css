@@ -143,6 +143,10 @@ body {
     color: #1a1a1a;
 }
 
+.contact-item a {
+    text-decoration: none;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
     .card {
