@@ -3,58 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matin Shakurov - Carte de Visite</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Chez Mamadou | Steakhouse Premium</title>
+    <meta name="description" content="Découvrez une viande d'exception Chez Mamadou, le steakhouse de référence alliant savoir-faire traditionnel et excellence bovine.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="card">
-        <!-- Header avec background -->
-        <div class="header-background">
-            <img src="bg.jpg" alt="Background">
+    <nav id="navbar">
+        <div class="logo">Chez Mamadou</div>
+        <ul class="nav-links">
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#menu">La Carte</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg" style="background-image: url('assets/hero_steak_1776957595219.png');"></div>
+        <div class="hero-content">
+            <h1 class="fade-up">L'Excellence <br><span>Bovine</span></h1>
+            <p class="fade-up delay-1">L'art de la viande, maîtrisé à la perfection.</p>
+            <a href="#menu" class="cta-btn fade-up delay-2">Voir notre carte</a>
         </div>
-        
-        <!-- Photo de profil -->
-        <div class="profile-photo">
-            <img src="profile.jpg" alt="Kristen Rose">
-        </div>
-        
-        <!-- Informations -->
-        <div class="info-section">
-            <h1 class="name">Shakurov Matin</h1>
-            <p class="title">Photographe</p>
-            <p class="company">Evenementiel | Professionnel | Couples | Portrait</p>
-            
-            <!-- Code QR -->
-            <!-- <div class="qr-code">
-                <img src="qr-code.png" alt="QR Code">
-            </div> -->
-            
-            <!-- Contact -->
-            <div class="contact-list">
-                <div class="contact-item">
-                    <a href="https://matinshakurov.pixieset.com/portfoliodematinshakurov/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i></a>
-                    <a href="https://matinshakurov.pixieset.com/portfoliodematinshakurov/" target="_blank" rel="noopener noreferrer"><span>Voir mon portfolio</span></a>
-                </div>
-                <div class="contact-item">
-                    <a href="mailto:matinshakurov@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-                    <a href="mailto:matinshakurov@gmail.com"><span>matinshakurov@gmail.com </span></a>
-                </div>
-                <div class="contact-item">
-                    <a href="tel:+33679110424"><i class="fa-solid fa-phone"></i></a>
-                    <a href="tel:+33679110424"><span>+33 679 11 04 24</span></a>
-                </div>
-                <div class="contact-item">
-                    <a href="http://matinshakurov.fr" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i></a>
-                    <a href="http://matinshakurov.fr" target="_blank" rel="noopener noreferrer"><span>Mon site</span></a>
-                </div>
-                <div class="contact-item">
-                    <a href="https://www.instagram.com/shakurov_photos"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.instagram.com/shakurov_photos"><span>@shakurov_photos</span></a>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-grid">
+            <div class="about-text section-fade">
+                <h2>Notre Philosophie</h2>
+                <p>Chez Mamadou, nous célébrons la puissance et la délicatesse d'une viande d'exception. Chaque pièce est sélectionnée rigoureusement, maturée sur place dans nos caves de vieillissement, puis délicatement grillée pour révéler toute son intensité.</p>
+                <div class="awards">
+                    <span>★ Viandes d'Exception</span>
+                    <span>★ Maturation Dry-Aged</span>
                 </div>
             </div>
+            <div class="about-image section-fade">
+                <img src="assets/chef_cooking_1776957628481.png" alt="Le chef grillant la viande Chez Mamadou">
+            </div>
         </div>
-    </div>
-    
+    </section>
+
+    <section id="menu" class="menu">
+        <h2 class="section-title section-fade">Nos Découpes Premium</h2>
+        <div class="menu-grid">
+            <div class="menu-item section-fade">
+                <div class="menu-info">
+                    <h3>Le Tomahawk</h3>
+                    <p>Pièce maîtresse persillée, maturée 45 jours. Parfaite pour 2 personnes.</p>
+                </div>
+                <div class="menu-price">125€</div>
+            </div>
+            <div class="menu-item section-fade delay-1">
+                <div class="menu-info">
+                    <h3>Le Faux-Filet Black Angus</h3>
+                    <p>Délicieusement tendre, avec des notes de beurre de ferme grillé.</p>
+                </div>
+                <div class="menu-price">48€</div>
+            </div>
+            <div class="menu-item section-fade delay-2">
+                <div class="menu-info">
+                    <h3>L'Entrecôte Wagyu (Grade A5)</h3>
+                    <p>L'expérience ultime. Un persillage exceptionnel qui fond en bouche. 200g.</p>
+                </div>
+                <div class="menu-price">160€</div>
+            </div>
+        </div>
+        <div class="parallax-divider" style="background-image: url('assets/interior_steakhouse_1776957610136.png');"></div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Chez Mamadou</h3>
+                <p>12 Rue de l'Excellence, Paris</p>
+                <p>contact@chez-mamadou.com</p>
+            </div>
+            <div class="footer-col">
+                <h3>Horaires</h3>
+                <p>Mardi - Dimanche : 19:00 - 23:30</p>
+                <p>Fermé le Lundi</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Chez Mamadou Premium Steakhouse. Tous droits réservés.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
